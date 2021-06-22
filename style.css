@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #9aa4ff);
+    background: linear-gradient(to right, #004e92, #9aa4ff);
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    width: 700px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    background-color: #a62bdb;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    padding: 1.4rem;
+    color: white;
+    font-family: inherit;
+    border: none;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: #8e44ad;
+}
+
+h2 { margin: 0; font-weight: bold;}
+
+ul li {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+label {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: .5rem;
+    margin-top: 0.5rem;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
